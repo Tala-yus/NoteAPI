@@ -91,17 +91,17 @@ This project demonstrates:
 
 ## 🧑‍💻 Git Workflow
 
-# Create feature branch
+### Create feature branch
 git checkout -b feature/your-feature-name
 
-# Stage & commit changes
+### Stage & commit changes
 git add .
 git commit -m "feat: describe your feature"
 
-# Push branch
+### Push branch
 git push -u origin feature/your-feature-name
 
-# After merge, delete branch
+### After merge, delete branch
 git branch -d feature/your-feature-name
 git push origin --delete feature/your-feature-name
 ```
